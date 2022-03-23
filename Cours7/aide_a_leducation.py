@@ -15,3 +15,6 @@ def tracer(x, y, **kwargs):
     
 def moyenne(x):
     return np.mean(x)
+
+def range(*args):
+    return list(np.arange(*args))
